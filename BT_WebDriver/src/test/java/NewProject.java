@@ -8,7 +8,7 @@ public class NewProject {
     public static String inputProjectName= "//label[@for='name']/following-sibling::input";
     public static String dropdownCustomers = "//label[@for='clientid']/following-sibling::div//button";
     public static String inputCustomer = "//button[@data-toggle='dropdown']/following-sibling::div//input[@aria-controls='bs-select-6']";
-    public static String checkboxCalculate = "//input[@id='progress_from_tasks']/following-sibling::label[@for='progress_from_tasks']";
+    public static String checkboxCalculate = "//label[@for='progress_from_tasks']/preceding-sibling::input";
     public static String ProgressBar = "//label[normalize-space()='Progress 0%']/following-sibling::div[contains(@class,'project_progress_slider ')]";
     public static String dropdownBillingType = "//div[contains(text(),'Nothing selected')]/ancestor::button[@title='Nothing selected']";
     public static String selectBillingType = "//a[@id='bs-select-1-1']/child::span[normalize-space()='Fixed Rate']";
